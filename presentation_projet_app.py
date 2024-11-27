@@ -16,15 +16,6 @@ elif page == "Problématique et data set":
    st.subheader(" ", divider="gray")
    st.subheader("Présentation du data set")
    
-   def load_data(data):
-       data = pd.read_csv(data)  
-       return data
-   try:
-       dataset = load_data(data)
-       st.subheader("Tableau de données")
-       st.dataframe(data)
-   except Exception as e:
-       st.error(f"Erreur : Impossible de charger les données. Vérifiez l'URL. {e}")
    
  
 elif page == "Code python":
