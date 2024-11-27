@@ -21,7 +21,7 @@ elif page == "Problématique et data set":
       return pd.read_csv(url)
    if st.button("dataset"):
       try:
-         data = load_csv(csv_url, sep=",")
+         data = load_csv(csv_url, sep=";")
          st.success("Données chargées avec succès !")
          st.subheader("Tableau des données")
          st.dataframe(data)
