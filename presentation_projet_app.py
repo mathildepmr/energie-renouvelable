@@ -15,8 +15,14 @@ elif page == "Problématique et data set":
    st.subheader(":green[Étude de l'impact de La guerre en Ukraine sur la production d'énergie renouvelable en France en fonction des années ]")
    st.subheader(" ", divider="gray")
    st.subheader("Présentation du dataset")
-   data = load_data(fichierdata)
-   st.dataframe(fichierdata)
+   
+   def load_data(fichierdata):
+    try:
+        data = pd.read_csv(fichierdata)
+        return data
+       
+       data = load_data(csv_url)
+       st.dataframe(data) 
   
  
 elif page == "Code python":
