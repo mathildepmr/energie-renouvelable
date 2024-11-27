@@ -24,7 +24,7 @@ elif page == "Problématique et data set":
               data = load_csv(csv_url)
               st.success("Données chargées avec succès !")
               st.subheader("Tableau des données")
-              st.dataframe(data)  # Affiche un tableau interactif
+              st.dataframe(data)
             except Exception as e:
                st.error(f"Erreur lors du chargement des données : {e}")
    
