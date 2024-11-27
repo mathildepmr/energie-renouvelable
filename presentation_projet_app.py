@@ -33,8 +33,13 @@ elif page == "Code python":
    st.subheader(" ", divider="gray")
    
    st.write("conversion des Années et des Régions en str")
-   st.image("image3.png")
-   st.image("image4.png")
+   
+   left, right = st.columns(2)
+      if left.button("Annee", use_container_width=True):
+         left.markdown(st.image("image3.png"))
+      if right.button("Région", icon=":material/mood:", use_container_width=True):
+         right.markdown(st.image("image4.png"))
+         
    st.subheader(" ", divider="gray")
    
    st.write("Années en index")
