@@ -22,26 +22,22 @@ elif page == "Problématique et data set":
       df
       plot = df['dataset']
       
-  
  
 elif page == "Code python":
-    st.header("Code Python")
-    st.write("Ajoutez ici votre contenu pour la première page.")
-    # Exemple de graphique
-    st.line_chart([1, 2, 3, 4, 5])
+   st.header("Code Python")
+   st.write("visualisation des différentes informations du dataset")
+   st.image("image.jpg")
+   st.subheader(" ", divider="gray")
+    
 
 
 elif page == "Graphique":
-    st.header("Page 2 : Analyse")
-    st.write("Ajoutez ici votre contenu pour la deuxième page.")
-    # Exemple de formulaire
-    user_input = st.text_input("Entrez quelque chose :")
+    st.header("Graphique")
+    st.write(" ")
+    
 
 elif page == "Conclusion":
-    st.header("Page 2 : Analyse")
+    st.header("Pour conclure")
     st.write("Ajoutez ici votre contenu pour la deuxième page.")
-    # Exemple de formulaire
-    user_input = st.text_input("Entrez quelque chose :")
-    if user_input:
-        st.write(f"Vous avez entré : {user_input}")
+
 
