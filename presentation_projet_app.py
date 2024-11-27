@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from sklearn.datasets import 
+from sklearn.datasets import prod-region-annuelle-encr.cv
 
 page = st.sidebar.radio("Naviguer entre les pages :", ["Introduction", "Problématique et data set", "Code python","Graphique", "Conclusion"])
 
@@ -14,8 +14,8 @@ elif page == "Problématique et data set":
    st.subheader(":green[Étude de l'impact de La guerre en Ukraine sur la production d'énergie renouvelable en France en fonction des années ]")
    st.subheader(" ", divider="gray")
    st.subheader("Présentation du dataset")
-
-   
+  
+ 
 elif page == "Code python":
     st.header("Code Python")
     st.write("Ajoutez ici votre contenu pour la première page.")
