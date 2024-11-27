@@ -23,7 +23,9 @@ try:
     dataset = load_data(data)
     st.subheader("Tableau de données")
     st.dataframe(data)
-      
+except Exception as e:
+    st.error(f"Erreur : Impossible de charger les données. Vérifiez l'URL. {e}")
+   
  
 elif page == "Code python":
    st.header("Code Python")
