@@ -2,12 +2,12 @@ import streamlit as st
 import pandas as pd
 
 
-page = st.sidebar.radio("Naviguer entre les pages :", ["Introduction", "Code python","Graphique", "Conclusion"])
+page = st.sidebar.radio("Naviguer entre les pages :", ["Introduction", "Problématique et data set", "Code python","Graphique", "Conclusion"])
 
 if page == "Introduction":
    st.title('Projet Python') 
    st.markdown('''Mathilde Paumier, Antony Riedberger, Nour Karam''')
-   st.image("-2.jpg")
+   st.image("image.jpg")
 
 elif page == "Problématique et data set":
    st.header("Problématique et data set")
