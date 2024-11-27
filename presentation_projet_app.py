@@ -34,7 +34,7 @@ elif page == "Code python":
    
    st.write("conversion des Années et des Régions en str")
 
-   boutannee = st.button("Annee", use_container_width=True)
+   boutannee = st.button("Année", use_container_width=True)
    if boutannee:
       st.image("image3.png")
       
