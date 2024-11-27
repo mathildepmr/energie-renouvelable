@@ -3,7 +3,7 @@ import pandas as pd
 
 data = "https://github.com/mathildepmr/energie-renouvelable/blob/main/prod-region-annuelle-enr.csv"
 
-page = st.sidebar.radio("Naviguer entre les pages :", ["Introduction", "Problématique et data set", "Code python","Graphique", "Conclusion"])
+page = st.sidebar.radio("Sommaire :", ["Introduction", "Problématique et data set", "Code python","Graphique", "Conclusion"])
 
 if page == "Introduction":
    st.title('Projet Python') 
@@ -17,7 +17,6 @@ elif page == "Problématique et data set":
    st.subheader("Présentation du data set")
    
    
- 
 elif page == "Code python":
    st.header("Code Python")
    st.write("visualisation des différentes informations du dataset")
