@@ -23,12 +23,6 @@ try:
     dataset = load_data(data)
     st.subheader("Tableau de données")
     st.dataframe(data)
-   
-   def load_data(fichierdata):
-      data = pd.read_csv(fichierdata)
-      df = st.dataframe(data)
-      df
-      plot = df['dataset']
       
  
 elif page == "Code python":
