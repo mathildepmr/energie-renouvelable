@@ -7,7 +7,7 @@ page = st.sidebar.radio("Naviguer entre les pages :", ["Introduction", "Code pyt
 if page == "Introduction":
    st.title('Projet Python') 
    st.markdown('''Mathilde Paumier, Antony Riedberger, Nour Karam''')
-   
+   st.image("-2.jpg")
 
 elif page == "Problématique et data set":
    st.header("Problématique et data set")
