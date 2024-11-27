@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-fichierdata = https://github.com/mathildepmr/energie-renouvelable/blob/main/prod-region-annuelle-enr.csv
-
 page = st.sidebar.radio("Naviguer entre les pages :", ["Introduction", "Problématique et data set", "Code python","Graphique", "Conclusion"])
 
 if page == "Introduction":
