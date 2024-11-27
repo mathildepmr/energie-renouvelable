@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 
 
-page = st.sidebar.radio("Naviguer entre les pages :", ["Accueil", "Page 1", "Page 2"])
+page = st.sidebar.radio("Naviguer entre les pages :", ["Introduction", "Code python","Graphique", "Conclusion"])
 
-if page == "Accueil":
+if page == "Introduction":
    st.title('Projet Python') 
    st.markdown('''Mathilde Paumier, Antony Riedberger, Nour Karam''')
    st.header("Problématique:") 
