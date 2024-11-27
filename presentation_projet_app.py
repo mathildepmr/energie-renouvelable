@@ -55,6 +55,6 @@ elif page == "Graphique":
 
 elif page == "Conclusion":
     st.header("Pour conclure")
-    st.write("Ajoutez ici votre contenu pour la deuxième page.")
+    st.write("...")
 
 
