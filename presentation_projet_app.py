@@ -28,8 +28,19 @@ elif page == "Code python":
    st.write("visualisation des différentes informations du dataset")
    st.image("image2.png")
    st.subheader(" ", divider="gray")
-    
-
+   
+   st.write("nouveau data set en supprimant la colone des gaz")
+   st.subheader(" ", divider="gray")
+   
+   st.write("conversion des Années et des Régions en str")
+   st.subheader(" ", divider="gray")
+   
+   st.write("Années en index")
+   st.subheader(" ", divider="gray")
+   
+   st.write("sélection de l'année 2023 et affichage de ces informations")
+   st.subheader(" ", divider="gray")
+   
 
 elif page == "Graphique":
     st.header("Graphique")
