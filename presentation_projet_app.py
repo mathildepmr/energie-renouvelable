@@ -34,13 +34,15 @@ elif page == "Code python":
    
    st.write("conversion des Années et des Régions en str")
 
-   boutannee = st.button("Annee",icon=":⏳:", use_container_width=True)
+   boutannee = st.button("Annee", use_container_width=True)
    if boutannee:
       st.image("image3.png")
       
-   boutregion = st.button("Région", icon=":🌏:", use_container_width=True)
+   boutregion = st.button("Région", use_container_width=True)
    if boutregion:
       st.image("image4.png")
+   else:
+    st.write("Cliquez sur le bouton pour voir une image.")
          
    st.subheader(" ", divider="gray")
    
