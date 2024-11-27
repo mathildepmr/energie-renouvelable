@@ -33,6 +33,7 @@ elif page == "Code python":
    st.subheader(" ", divider="gray")
    
    st.write("conversion des Années et des Régions en str")
+   st.image("image3.png","image4.png")
    st.subheader(" ", divider="gray")
    
    st.write("Années en index")
