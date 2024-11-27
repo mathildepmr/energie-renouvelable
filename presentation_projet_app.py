@@ -50,7 +50,7 @@ elif page == "Code python":
 
 elif page == "Graphique":
     st.header("Graphique")
-    st.write(" ")
+    st.write("présentation de graphique")
     
 
 elif page == "Conclusion":
