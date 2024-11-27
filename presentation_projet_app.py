@@ -14,7 +14,19 @@ elif page == "Problématique et data set":
    st.header("Problématique et data set")
    st.subheader(":green[Étude de l'impact de La guerre en Ukraine sur la production d'énergie renouvelable en France en fonction des années ]")
    st.subheader(" ", divider="gray")
-   st.subheader("Présentation du data set")
+   st.title("Présentation du data set")
+   csv_url = "https://raw.githubusercontent.com/mathildepmr/energie-renouvelable/main/prod-region-annuelle-enr.csv"
+      @st.cache_data
+      def load_csv(url):
+      return pd.read_csv(url)
+         if st.button("Afficher le fichier CSV"):
+            try:
+              data = load_csv(csv_url)
+              st.success("Données chargées avec succès !")
+              st.subheader("Tableau des données")
+              st.dataframe(data)  # Affiche un tableau interactif
+            except Exception as e:
+               st.error(f"Erreur lors du chargement des données : {e}")
    
    
 elif page == "Code python":
