@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-
+from sklearn.datasets import 
 
 page = st.sidebar.radio("Naviguer entre les pages :", ["Introduction", "Problématique et data set", "Code python","Graphique", "Conclusion"])
 
@@ -15,7 +15,6 @@ elif page == "Problématique et data set":
    st.subheader(" ", divider="gray")
    st.subheader("Présentation du dataset")
 
-   
    
 elif page == "Code python":
     st.header("Code Python")
