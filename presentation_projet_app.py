@@ -18,8 +18,8 @@ elif page == "Problématique et data set":
    
    def load_data(fichierdata):
       data = pd.read_csv(fichierdata)
-      return data
-      st.dataframe(data) 
+      st.dataframe(data)
+      print(st.dataframe(data))
   
  
 elif page == "Code python":
