@@ -10,10 +10,25 @@ st.subheader(":green[Étude de l'impact de La guerre en Ukraine sur la productio
 st.subheader(" ", divider="gray")
 st.subheader("Présentation du dataset")
 
-st.title("Page 1")
-def page_2():
-    st.title("Code Python ")
+page = st.sidebar.radio("Naviguer entre les pages :", ["Accueil", "Page 1", "Page 2"])
 
-pg = st.navigation([st.Page("page_1.py"), st.Page(page_2)])
-pg.run()
+if page == "Accueil":
+    st.header("Bienvenue sur la page d'accueil !")
+    st.write("Cette application contient plusieurs pages. Utilisez le menu pour naviguer.")
+
+
+elif page == "Page 1":
+    st.header("Page 1 : Visualisation")
+    st.write("Ajoutez ici votre contenu pour la première page.")
+    # Exemple de graphique
+    st.line_chart([1, 2, 3, 4, 5])
+
+
+elif page == "Page 2":
+    st.header("Page 2 : Analyse")
+    st.write("Ajoutez ici votre contenu pour la deuxième page.")
+    # Exemple de formulaire
+    user_input = st.text_input("Entrez quelque chose :")
+    if user_input:
+        st.write(f"Vous avez entré : {user_input}")
 
