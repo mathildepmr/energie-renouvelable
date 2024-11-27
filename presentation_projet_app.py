@@ -15,7 +15,7 @@ elif page == "Problématique et data set":
    st.subheader("Présentation du dataset")
    
    @st.cache_data
-def load_data(fichierdata):
+def load_data(csv_url):
     data = pd.read_csv(https://github.com/mathildepmr/energie-renouvelable/blob/main/prod-region-annuelle-enr.csv)  
     return data
 try:
