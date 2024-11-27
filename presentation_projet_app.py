@@ -21,7 +21,7 @@ elif page == "Problématique et data set":
         data = pd.read_csv(fichierdata)
         return data
        
-       data = load_data(csv_url)
+       data = load_data(fichierdata)
        st.dataframe(data) 
   
  
