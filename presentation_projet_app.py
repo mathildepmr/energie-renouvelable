@@ -3,14 +3,14 @@ import pandas as pd
 
 data = "https://github.com/mathildepmr/energie-renouvelable/blob/main/prod-region-annuelle-enr.csv"
 
-page = st.sidebar.radio("Naviguer entre les pages :", ["Introduction", "Problématique et data set", "Code python","Graphique", "Conclusion"])
+page = st.sidebar.radio("Naviguer entre les pages :", ["Introduction", "Problématique et data set,icon="😃", "Code python","Graphique", "Conclusion"])
 
 if page == "Introduction":
    st.title('Projet Python') 
    st.markdown('''Mathilde Paumier, Antony Riedberger, Nour Karam''')
    st.image("image.jpg")
 
-elif page == "Problématique et data set":
+elif page == "Problématique et data set,icon="😃":
    st.header("Problématique et data set")
    st.subheader(":green[Étude de l'impact de La guerre en Ukraine sur la production d'énergie renouvelable en France en fonction des années ]")
    st.subheader(" ", divider="gray")
