@@ -7,14 +7,18 @@ page = st.sidebar.radio("Naviguer entre les pages :", ["Introduction", "Code pyt
 if page == "Introduction":
    st.title('Projet Python') 
    st.markdown('''Mathilde Paumier, Antony Riedberger, Nour Karam''')
-   st.header("Problématique:") 
+   
+
+elif page == "Problématique et data set":
+   st.header("Problématique et data set")
    st.subheader(":green[Étude de l'impact de La guerre en Ukraine sur la production d'énergie renouvelable en France en fonction des années ]")
    st.subheader(" ", divider="gray")
    st.subheader("Présentation du dataset")
 
-
+   
+   
 elif page == "Code python":
-    st.header("Page 1 : Visualisation")
+    st.header("Code Python")
     st.write("Ajoutez ici votre contenu pour la première page.")
     # Exemple de graphique
     st.line_chart([1, 2, 3, 4, 5])
