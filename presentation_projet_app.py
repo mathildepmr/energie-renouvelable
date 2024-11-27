@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from sklearn.datasets import prod-region-annuelle_app.py
+from sklearn.datasets import prod-region-annuelle_enr.csv
 
 st.title('Projet Python')
 st.header("Problématique:") 
