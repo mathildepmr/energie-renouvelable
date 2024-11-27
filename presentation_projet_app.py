@@ -20,6 +20,7 @@ elif page == "Problématique et data set":
       data = pd.read_csv(fichierdata)
       df = st.dataframe(data)
       df
+      plot = df['dataset']
       
   
  
