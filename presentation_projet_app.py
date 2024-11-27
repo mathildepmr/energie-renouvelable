@@ -15,14 +15,13 @@ elif page == "Problématique et data set":
    st.subheader(":green[Étude de l'impact de La guerre en Ukraine sur la production d'énergie renouvelable en France en fonction des années ]")
    st.subheader(" ", divider="gray")
    
-   st.title("Présentation du data set")
    csv_url = "https://raw.githubusercontent.com/mathildepmr/energie-renouvelable/main/prod-region-annuelle-enr.csv"
    st.title("dataset : Énergies Renouvelables")
    def load_csv(url):
       return pd.read_csv(url)
    if st.button("dataset"):
       try:
-         data = load_csv(csv_url)
+         data = load_csv(csv_url, sep=",")
          st.success("Données chargées avec succès !")
          st.subheader("Tableau des données")
          st.dataframe(data)
