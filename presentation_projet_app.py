@@ -58,6 +58,7 @@ elif page == "Code python":
    st.subheader(" ", divider="gray")
  
    st.write("sélection de l'année 2023 et affichage de ces informations")
+   st.image("image7.png")
    st.subheader(" ", divider="gray")
 
    st.write("statitistique de l'année 2023")
