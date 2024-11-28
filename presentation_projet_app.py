@@ -16,7 +16,7 @@ elif page == "Problématique et data set":
    st.subheader(" ", divider="gray")
    
    csv_url = "https://raw.githubusercontent.com/mathildepmr/energie-renouvelable/main/prod-region-annuelle-enr.csv"
-   st.title("dataset : Énergies Renouvelables, icon="🌏"")
+   st.title("dataset : Énergies Renouvelables")
    def load_csv(url):
       return pd.read_csv(url, sep=";")
    if st.button("dataset"):
