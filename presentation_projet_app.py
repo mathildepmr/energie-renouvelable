@@ -12,7 +12,8 @@ if page == "Introduction":
 
 elif page == "Problématique et data set":
    st.header("Problématique et data set")
-   st.subheader(":green[Étude de l'impact de La guerre en Ukraine sur la production d'énergie renouvelable en France en fonction des années ]")
+   st.subheader(":green[Étude de l'impact de La guerre en Ukraine sur la production d'énergie renouvelable en France ]")
+   st.write("Nous nous concentrerons sur les énergies renouvelables autre que le gaz à savoir l'éolien, l'hydraulique,le solaire et les bioénergies")
    st.subheader(" ", divider="gray")
    
    csv_url = "https://raw.githubusercontent.com/mathildepmr/energie-renouvelable/main/prod-region-annuelle-enr.csv"
@@ -74,6 +75,11 @@ elif page == "Code python":
 elif page == "Graphique":
     st.header("Représentation Statistique")
     st.write("Statistique de la production d'énergies renouvelables pour l'année 2023")
+    st.write("sélectionner un couple de variable pour plus de lisibilité, ici la production d'énergie d'origine éolien et solaire")
+    st.write("filtrer pour faire un tableau comparatif entre les différentes années")
+    st.write(" grouper par année")
+    st.subheader ("graphique comparatif de l'évolution des énergies renouvelables")
+    st.subheader ("graphique comparatif de l'évolution des énergies renouvelables avant et pendant la guerre en Ukraine")
 
    
 elif page == "Conclusion":
