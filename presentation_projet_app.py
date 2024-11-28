@@ -36,19 +36,6 @@ elif page == "Code python":
    st.subheader(" ", divider="gray")
    
    st.write("nouveau data set en supprimant la colone des gaz")
-   if st.button(" nouveau dataset"):
-      try:
-         cols = list(data.columns)
-         cols
-         data =data.rename(columns={cols[1]:"Regions", cols[2]:"Code_Regions", cols[3]:"Hydraulique_(GWh)", cols[4]:"Bioenergies_(GWh)",
-                                    cols[5]:"Eolien_(GWh)", cols[6]:"Solaire_(GWh)", cols[7]:"Electrique_(GWh)",
-                                    cols[8]:"Total_(GWh)", cols[9]:"Geo_shape", cols[10]:"Geo_point"})
-         st.subheader("Nouveau Tableau des données")
-         st.dataframe(data)
-         
-      except Exception as e:
-         st.error(f"Erreur lors du chargement des données : {e}") 
-         
    st.subheader(" ", divider="gray")
 
    st.write("conversion des Années et des Régions en str")
