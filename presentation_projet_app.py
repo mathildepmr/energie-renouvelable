@@ -5,6 +5,7 @@ import seaborn as sns
 import math
 import plotly.express as px
 import plotly.graph_objects as go
+import matplotlib.pyplot as plt
 
 data = "https://github.com/mathildepmr/energie-renouvelable/blob/main/prod-region-annuelle-enr.csv"
 
