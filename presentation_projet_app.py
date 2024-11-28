@@ -45,8 +45,9 @@ elif page == "Code python":
    st.subheader(" ", divider="gray")
 
    st.write("Supression de la colone de gaz et remplacement des valeurs manquantes")
+   
    data = data.drop(['Production gaz renouvelable (GWh)'], axis = 1)
-   data.head()
+   st.dataframe(data)
    
    st.write("Colones renommées pour faciliter la lecture")
    st.image("image8.png")
