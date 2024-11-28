@@ -32,7 +32,8 @@ elif page == "Problématique et data set":
 elif page == "Code python":
    st.header("Code Python")
    st.write("visualisation des différentes informations du dataset")
-   st.image("image2.png")
+   if bot:
+      st.image("image2.png")
    st.subheader(" ", divider="gray")
 
    st.write("Supression de la colone de gaz et remplacement des valeurs manquantes")
