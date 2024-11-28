@@ -38,6 +38,7 @@ elif page == "Code python":
    st.subheader(" ", divider="gray")
 
    st.write("Supression de la colone de gaz et remplacement des valeurs manquantes")
+   
    st.write("Colones renommées pour faciliter la lecture")
    st.image("image8.png")
    st.subheader(" ", divider="gray")
