@@ -34,8 +34,9 @@ elif page == "Code python":
    st.write("visualisation des différentes informations du dataset")
    st.image("image2.png")
    st.subheader(" ", divider="gray")
-   
-   st.write("nouveau data set en supprimant la colone des gaz")
+
+   st.write("Supression de la colone de gaz et remplacement des valeurs manquantes")
+   st.write("Colones renommées pour faciliter la lecture")
    st.subheader(" ", divider="gray")
 
    st.write("conversion des Années et des Régions en str")
@@ -55,8 +56,13 @@ elif page == "Code python":
    st.write("Années en index")
    st.image("image5.png")
    st.subheader(" ", divider="gray")
-   
+ 
    st.write("sélection de l'année 2023 et affichage de ces informations")
+   st.subheader(" ", divider="gray")
+
+   st.write("statitistique de l'année 2023")
+   st.image("image6.png")
+   st.write("Les représentations graohiques de ces statistiques se trouve sur l'onglet Graphique")
    st.subheader(" ", divider="gray")
    
 
