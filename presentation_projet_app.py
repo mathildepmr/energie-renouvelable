@@ -1,11 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import seaborn as sns
-import math
-import plotly.express as px
-import plotly.graph_objects as go
-import matplotlib.pyplot as plt
 
 data = "https://github.com/mathildepmr/energie-renouvelable/blob/main/prod-region-annuelle-enr.csv"
 
@@ -45,9 +40,6 @@ elif page == "Code python":
    st.subheader(" ", divider="gray")
 
    st.write("Supression de la colone de gaz et remplacement des valeurs manquantes")
-   
-   data = data.drop(['Production gaz renouvelable (GWh)'], axis = 1)
-   st.dataframe(data)
    
    st.write("Colones renommées pour faciliter la lecture")
    st.image("image8.png")
