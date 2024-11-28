@@ -63,11 +63,11 @@ elif page == "Code python":
    st.subheader(" ", divider="gray")
  
    st.write("sélection de l'année 2022 et affichage de ses informations")
-
+   st.image("image10.png")
    st.subheader(" ", divider="gray")
 
    st.write("statistique de l'année 2022")
- 
+   st.image("image11.png")
    st.write("Les représentations graphiques de ces statistiques se trouve sur l'onglet Graphique")
    st.subheader(" ", divider="gray")
    
