@@ -32,7 +32,8 @@ elif page == "Problématique et data set":
 elif page == "Code python":
    st.header("Code Python")
    st.write("visualisation des différentes informations du dataset")
-   if bot:
+   boutinfo = st.button("Informations", use_container_width=True)
+   if boutinfo:
       st.image("image2.png")
    st.subheader(" ", divider="gray")
 
