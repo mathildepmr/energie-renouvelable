@@ -62,11 +62,11 @@ elif page == "Code python":
    st.image("image5.png")
    st.subheader(" ", divider="gray")
  
-   st.write("sélection de l'année 2023 et affichage de ses informations")
+   st.write("sélection de l'année 2022 et affichage de ses informations")
    st.image("image7.png")
    st.subheader(" ", divider="gray")
 
-   st.write("statistique de l'année 2023")
+   st.write("statistique de l'année 2022")
    st.image("image6.png")
    st.write("Les représentations graphiques de ces statistiques se trouve sur l'onglet Graphique")
    st.subheader(" ", divider="gray")
@@ -74,7 +74,7 @@ elif page == "Code python":
 
 elif page == "Graphique":
     st.header("Représentation Statistique")
-    st.write("Statistique de la production d'énergies renouvelables pour l'année 2023")
+    st.write("Statistique de la production d'énergies renouvelables pour l'année 2022")
     st.write("sélectionner un couple de variable pour plus de lisibilité, ici la production d'énergie d'origine éolien et solaire")
     st.write("filtrer pour faire un tableau comparatif entre les différentes années")
     st.write(" grouper par année")
