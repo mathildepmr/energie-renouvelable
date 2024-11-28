@@ -38,7 +38,6 @@ elif page == "Code python":
    st.write("nouveau data set en supprimant la colone des gaz")
    if st.button(" nouveau dataset"):
       try:
-         data = data.drop(['Production gaz renouvelable (GWh)'], axis = 1)
          cols = list(data.columns)
          cols
          data =data.rename(columns={cols[1]:"Regions", cols[2]:"Code_Regions", cols[3]:"Hydraulique_(GWh)", cols[4]:"Bioenergies_(GWh)",
