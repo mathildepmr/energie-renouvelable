@@ -37,6 +37,7 @@ elif page == "Code python":
 
    st.write("Supression de la colone de gaz et remplacement des valeurs manquantes")
    st.write("Colones renommées pour faciliter la lecture")
+   st.image("image8.png")
    st.subheader(" ", divider="gray")
 
    st.write("conversion des Années et des Régions en str")
@@ -61,7 +62,7 @@ elif page == "Code python":
    st.image("image7.png")
    st.subheader(" ", divider="gray")
 
-   st.write("statitistique de l'année 2023")
+   st.write("statistique de l'année 2023")
    st.image("image6.png")
    st.write("Les représentations graphiques de ces statistiques se trouve sur l'onglet Graphique")
    st.subheader(" ", divider="gray")
