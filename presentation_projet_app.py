@@ -75,14 +75,14 @@ elif page == "Code python":
 
 elif page == "Graphique":
     st.header("Représentation Statistique")
-    st.write("Statistique de la production d'énergies renouvelables pour l'année 2022")
+    st.subheader("Statistique de la production d'énergies renouvelables pour l'année 2022")
     st.image("image12.png")
    
-    st.write("sélectionner un couple de variable pour plus de lisibilité, ici la production d'énergie d'origine éolien et solaire")
+    st.subheader("sélectionner un couple de variable pour plus de lisibilité, ici la production d'énergie d'origine éolien et solaire")
     st.image("image13.png")
     st.write("filtrer pour faire un tableau comparatif entre les différentes années")
     
-    st.write(" grouper par année")
+    st.subheader(" grouper par année")
     st.image("image14.png")
     st.subheader ("graphique comparatif de l'évolution des énergies renouvelables")
     st.subheader ("graphique comparatif de l'évolution des énergies renouvelables avant et pendant la guerre en Ukraine")
