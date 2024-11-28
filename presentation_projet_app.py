@@ -72,10 +72,10 @@ elif page == "Code python":
    
 
 elif page == "Graphique":
-    st.header("Graphique")
-    st.write("présentation de graphique")
-    
+    st.header("Représentation Statistique")
+    st.write("Statistique de la production d'énergies renouvelables pour l'année 2023")
 
+   
 elif page == "Conclusion":
     st.header("Pour conclure")
     st.write("...")
