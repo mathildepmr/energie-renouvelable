@@ -47,6 +47,9 @@ elif page == "Code python":
          st.subheader("Nouveau Tableau des données")
          st.dataframe(data)
          
+      except Exception as e:
+         st.error(f"Erreur lors du chargement des données : {e}") 
+         
    st.subheader(" ", divider="gray")
 
    st.write("conversion des Années et des Régions en str")
