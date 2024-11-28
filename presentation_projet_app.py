@@ -16,7 +16,7 @@ elif page == "Problématique et data set":
    st.subheader(" ", divider="gray")
    
    csv_url = "https://raw.githubusercontent.com/mathildepmr/energie-renouvelable/main/prod-region-annuelle-enr.csv"
-   st.title("dataset : Énergies Renouvelables")
+   st.title("dataset : Énergies Renouvelables, icon="🌏"")
    def load_csv(url):
       return pd.read_csv(url, sep=";")
    if st.button("dataset"):
@@ -62,7 +62,7 @@ elif page == "Code python":
 
    st.write("statitistique de l'année 2023")
    st.image("image6.png")
-   st.write("Les représentations graohiques de ces statistiques se trouve sur l'onglet Graphique")
+   st.write("Les représentations graphiques de ces statistiques se trouve sur l'onglet Graphique")
    st.subheader(" ", divider="gray")
    
 
