@@ -7,7 +7,7 @@ page = st.sidebar.radio("Home page :", ["Introduction", "Problématique et data 
 
 if page == "Introduction":
    st.title('Projet Python') 
-   st.markdown('''Mathilde Paumier, Antony Riedberger, Nour Karam''')
+   st.markdown('''Mathilde Paumier, Antoni Riedberger, Nour Karam''')
    st.image("image.jpg")
 
 elif page == "Problématique et data set":
